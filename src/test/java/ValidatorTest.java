@@ -20,4 +20,6 @@ class ValidatorTest {
     void isEmailValid() {
         assertFalse(validator.isEmailValid("fredrik.ohlander@iths."));
     }
+
+    //
 }
