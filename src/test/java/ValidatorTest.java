@@ -12,12 +12,12 @@ class ValidatorTest {
     @Test
     @DisplayName("Test Validator - Phone number is valid (True)")
     void testThatPhoneNumberIsValidTrue() {
-        assertTrue(Validator.isPhoneNumberValid("074312421"));
+        assertTrue(validator.isPhoneNumberValid("074312421"));
     }
 
     @Test
     @DisplayName("Test Validator - Email is valid (False)")
     void isEmailValid() {
-        assertFalse(Validator.isEmailValid("fredrik.ohlander@iths."));
+        assertFalse(validator.isEmailValid("fredrik.ohlander@iths."));
     }
 }
